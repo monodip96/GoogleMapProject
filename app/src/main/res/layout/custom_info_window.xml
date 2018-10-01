@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/pop"
+    android:orientation="horizontal"
+    android:paddingLeft="5dp"
+    android:paddingBottom="10dp"
+    android:paddingTop="2dp"
+    >
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="ABC"
+            android:textColor="#1d9c5c"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/snippet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textSize="12sp"
+            android:text="ABC"
+            android:paddingBottom="8dp"
+            />
+
+
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ff9f9f"
+            android:textSize="13dp"
+            android:visibility="gone"
+            />
+
+
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/badge"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginRight="5dp"
+        android:adjustViewBounds="true"
+        android:layout_marginLeft="5dp"
+        >
+    </ImageView>
+
+</LinearLayout>
